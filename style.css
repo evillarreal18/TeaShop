@@ -1,0 +1,317 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  border: ridge;
+}
+
+.span h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.header {
+  width: 95%%;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.cart img {
+  width: 22px;
+  margin-right: ;
+}
+
+.sign-in {
+  margin-left: 55%;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.main-picture img {
+  width: 100%;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: flex-end;
+}
+
+ul {
+  display: flex;
+  padding: 1px;
+  flex-direction: column;
+}
+
+li.row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+}
+
+li.row .gingertea {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+  margin-left: 2%;
+}
+
+li.row .gingertea img {
+  width: 100%;
+}
+
+li.row .item-name {
+  width: 58%;
+  margin-left: 2%;
+  position: relative;
+}
+
+li.row .item-name h1 {
+  margin: 0;
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: large;
+  font-family: roboto;
+  color: dimgray;
+}
+
+li.row .item-name .info {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  width: 90%;
+  position: absolute;
+  bottom: 3%;
+}
+
+li.row .greentea {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+  margin-left: 2%;
+}
+
+li.row .greentea img {
+  width: 100%;
+}
+
+li.row .lemontea {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+  margin-left: 2%;
+}
+
+li.row .lemontea img {
+  width: 100%;
+}
+
+li.row .masalatea {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+  margin-left: 2%;
+}
+
+li.row .masalatea img {
+  width: 100%;
+}
+
+.price {
+  font-size: 20px;
+  color: dimgray;
+}
+
+.add {
+  padding: 2px;
+  width: 33%;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  height: 30px;
+  font-size: 15px;
+  font-family: roboto;
+}
+
+button {
+  width: 30%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: roboto;
+  border: none;
+}
+
+.sub {
+  font-family: roboto;
+  font-weight: bold;
+  color: dimgray;
+  font-size: large;
+  margin-right: 7%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2%;
+  border-top-color: lightgray;
+  border-top-style: ridge;
+}
+
+section.blackBackground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+section.blackBackground .signup {
+  position: absolute;
+  top: 30%;
+  left: 31%;
+  width: 36%;
+  background-color: rgba(255, 255, 255, 100%);
+}
+
+.signup h4 {
+  font-family: roboto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 17px;
+  color: dimgray;
+}
+
+.signup h1 {
+  justify-content: space-around;
+  font-family: sans-serif;
+  display: flex;
+  font-size: 20px;
+}
+
+.signup .form {
+  display: flex;
+  padding: 0px;
+  margin-top: 0%;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.signup input {
+  width: 80%;
+  padding: 3%;
+}
+
+p {
+  position: relative;
+  bottom: 5%;
+  text-align: center;
+}
+
+.signup a.sign-in1 {
+  text-decoration: underline;
+}
+
+.signup img {
+  width: 4%;
+  position: absolute;
+  left: 93%;
+}
+
+.blackBox {
+    width: 100%;
+    position: relative;
+    background: black;
+    color: white;
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.blackBox h1 {
+    padding: 3.5% 0;
+    margin: 0;
+    font-family: system-ui;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.order-details {
+    margin: 0 27%;
+    width: 48%;
+    display: grid;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+.order-details table tr th {
+    text-align: left;
+    border-top: 1px solid black;
+    padding: 2% 0;
+    font-family: system-ui;
+    font-size: 13px;
+}
+
+.order-details .order-form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding-block-start: 15px;
+}
+
+.order-details .order-form input {
+    padding: 7px;
+    background-color: lightgrey;
+    border: none;
+    margin-block: 3%;
+}
+
+button.submit {
+    width: 50%;
+}
+
+.order-details h3 {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: system-ui;
+}
+
+td {
+    font-size: 13px;
+    font-family: system-ui;
+}
+
+.order-details .order-form label {
+    font-family: system-ui;
+}
+
+.order-placed {
+    text-align: center;
+}
+
+.order-placed p {
+    font: message-box;
+    padding: 100px;
+    color: dimgrey;
+}
+
+.order-placed button.Home {
+    margin-bottom: 200px;
+    width: 20%;
+    font-family: system-ui;
+    font-size: 12px;
+}
